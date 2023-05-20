@@ -1,0 +1,56 @@
+{
+    "keyboard_name": "XIAOfenster", 
+    "url": "https://github.com/GEIGEIGEIST/XIAOfenster", 
+    "manufacturer": "GEIST",
+    "usb": {
+        "vid": "0x3A3C",
+        "pid": "0x0003",
+        "device_version": "0.1.0"
+    },
+    "encoder": {
+        "rotary": [
+          {"pin_a": "D8", "pin_b": "D5"}
+        ]
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "debounce": 5,
+    "matrix_pins": {
+        "direct": [
+            ["D7", null],
+            ["D3", "D10"],
+            ["D4", "D9"]
+        ]     
+    },
+    "features": {
+        "audio": false,
+        "backlight": false,
+        "caps_word": false,
+        "combo": false,
+        "command": false,
+        "console": false,
+        "dip_switch": false,
+        "encoder": true,
+        "extrakey": true,
+        "grave_esc": false,
+        "lto": false,
+        "magic": false,
+        "mousekey": true,
+        "music": false,
+        "oled": false,
+        "rgb_matrix": false,
+        "rgblight": false,
+        "space_cadet": false
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"x":0.5, "y":0, "matrix": [0, 0]}, 
+                {"x":0, "y":1, "matrix": [1, 0]}, 
+                {"x":1, "y":1, "matrix": [1, 1]}, 
+                {"x":0, "y":2, "matrix": [2, 0]}, 
+                {"x":1, "y":2, "matrix": [2, 1]}
+            ]
+        }
+    }
+}
